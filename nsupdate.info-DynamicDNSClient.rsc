@@ -11,8 +11,8 @@
 # Problem: You only have IPv4 or IPv6, not both.
 # Solution: The script will probably fail, Mikrotik likes to stop running scripts if ANYTHING goes wrong. Goodluck!
 # Please enter only your full Dynamic DNS Hostname & Secret
-:local DDNSHostname 
-:local DDNSSecret 
+:local DDNSHostname dynamichostname.nsupdate.info
+:local DDNSSecret myHostnameSeCrET
 :put "-----------------------------------------"
 ## IPv4 Update code begin.
 :local DDNSHostnameIPv4 [:resolve $DDNSHostname];
