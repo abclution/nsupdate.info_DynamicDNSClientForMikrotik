@@ -1,4 +1,8 @@
 ###################################################################################
+# nsupdate.info Dynamic DNS Updater for Mikrotik Routers
+# Version .01 Initial Release 2019-12-29
+# https://github.com/abclution/nsupdate.info_DynamicDNSClientForMikrotik
+# This script is a work in progress and considered beta but functional.
 # "Compliant" IPv4 & IPv6 Dynamic DNS Update Script for Mikrotik with Nsupdate.info Services
 # In theory, fully compliant based on Nsupdate rules, but hey, its free, YMMV!
 # Things to note: 
